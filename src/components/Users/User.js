@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import Confetti from 'react-confetti';
 import star from '../../images/star.png';
 import like from '../../images/like.png';
 import view from '../../images/eye.png';
 import heart from '../../images/heart.png';
 import unlike from '../../images/unliked.png';
 
-
-
 export const User = ({ userData }) => {
   const [totalLikes, setTotalLikes] = useState(0);
   const [liked, setLiked] = useState({ postId: null, isLiked: false });
+  const [isFollowing, setIsFollowing] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const handleLikeClick = (postId) => {
-    const updatedPosts = userData.posts.map(post => {
+    const updatedPosts = userData.posts.map((post) => {
       if (post.id === postId) {
         const updatedLikes = liked.postId === postId && liked.isLiked ? post.likes - 1 : post.likes + 1;
         return { ...post, likes: updatedLikes };
@@ -25,26 +26,34 @@ export const User = ({ userData }) => {
     setLiked({ postId, isLiked: !liked.isLiked });
   };
 
-  useEffect(() => {
+  const handleFollowClick = () => {
+    setIsFollowing(true);
+    setShowConfetti(true);
+  };
 
+  useEffect(() => {
     const sumLikes = userData.posts.reduce((sum, post) => sum + post.likes, 0);
     setTotalLikes(sumLikes);
   }, [userData.posts, liked]);
 
   return (
+    <>
+    {showConfetti && (
+        <Confetti
+          recycle={false}
+          gravity={0.8}
+          wind={0.1}   
+        />
+      )}
     <div className="bg-gray-200 min-h-screen">
-
-      <div className='h-80'>
-
-        <img src={userData.bgImage} className='w-full h-full object-cover' alt="Background" />
+    
+      <div className="h-80">
+        <img src={userData.bgImage} className="w-full h-full object-cover" alt="Background" />
       </div>
 
-
       <div className="inset-0 flex flex-col items-center justify-center space-y-2">
-
-        <div className="flex items-center  ml-2 sm:ml-0 ">
+        <div className="flex items-center ml-2 sm:ml-0">
           <div className="relative z-20 w-32 h-32 md:w-56 md:h-56 rounded-full overflow-hidden" style={{ marginTop: '-1rem' }}>
-
             <img src={userData.profileImage} className="w-full h-full object-cover" alt="User Profile" />
           </div>
           <p className="text-xl font-bold text-black ml-2">{userData.name}</p>
@@ -68,19 +77,29 @@ export const User = ({ userData }) => {
               Verified
             </div>
           </div>
-        </div>
+          </div>
+         
+          {!isFollowing && (
+            <div className="flex items-center align-center space-x-4 mt-8 sm:mt-0">
+            <button className="bg-blue-600 p-2 rounded-md mt-4 sm:mt-0 w-52 hover:scale-110 transform transition-transform duration-300" onClick={handleFollowClick}>
+              <p className="text-xs text-white">Follow</p>
+            </button>
+          </div>
+          )}
+        
 
-
-        <div className="flex items-center align-center space-x-4 mt-8 sm:mt-0 ">
-          <button className="bg-gray-300 p-2 rounded-md mt-4 sm:mt-0 w-52">
-            <p className="text-sm font-semibold text-gray-800">{userData.followers}</p>
-            <p className="text-xs text-gray-600">Followers</p>
-          </button>
-          <button className="bg-yellow-400 p-2 rounded-md mt-4 sm:mt-0">
-            <p className="text-sm font-semibold text-gray-800">{userData.following}</p>
-            <p className="text-xs text-gray-600">Following</p>
-          </button>
-        </div>
+        {isFollowing && (
+          <div className="flex items-center align-center space-x-4 mt-8 sm:mt-0">
+            <button className="bg-gray-300 p-2 rounded-md mt-4 sm:mt-0 w-52">
+              <p className="text-sm font-semibold text-gray-800">{userData.followers}</p>
+              <p className="text-xs text-gray-600">Followers</p>
+            </button>
+            <button className="bg-yellow-400 p-2 rounded-md mt-4 sm:mt-0">
+              <p className="text-sm font-semibold text-gray-800">{userData.following}</p>
+              <p className="text-xs text-gray-600">Following</p>
+            </button>
+          </div>
+        )}
 
 
         <div className="text-center w-full ">
@@ -143,6 +162,8 @@ export const User = ({ userData }) => {
 
         </div>
       </div>
-    </div>
+      </div>
+      </>
+   
   );
 };
