@@ -42,7 +42,7 @@ export const User = ({ userData }) => {
         <Confetti
           recycle={false}
           gravity={0.8}
-          wind={0.1}   
+          wind={0}   
         />
       )}
     <div className="bg-gray-200 min-h-screen">
