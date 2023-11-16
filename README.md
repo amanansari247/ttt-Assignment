@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# ✨ Awesome [TTT Stories App](https://ttt-assignment-vert.vercel.app/) ✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Awesome TTT Stories App! This application allows you to explore engaging stories from fascinating individuals.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Components
 
-### `npm start`
+### 1. `App.js`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Description:** Main component that sets up the application's routing and structure.
+- **Libraries/Plugins Used:**
+  - `react`
+  - `react-router-dom`
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/75019355-0db1-4e14-9d74-100abdd901f7)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 2. `Navbar.js`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Description:** Component for the stylish navigation bar.
+- **Libraries/Plugins Used:**
+  - `react`
+  - `react-router-dom`
+- **Features:**
+  - Eye-catching logo animation
+  - Dynamic "All Stories" button with a smooth transition
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/586fa6e4-4b5e-428f-ac00-9336422cb99e)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. `Footer.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Description:** Component for the sleek footer section.
+- **Libraries/Plugins Used:**
+  - `react`
+- **Features:**
+  - Beautifully crafted with love ❤️ by Aman Hussain
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/7f2887bd-6e49-45fe-9a02-bb498b7b0c5c)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 4. `User.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Description:** Component for displaying user profiles and their captivating posts.
+- **Libraries/Plugins Used:**
+  - `react`
+  - `react-confetti`
+- **Features:**
+  - Interactive confetti animation for liked posts
+  - Attractive user profile design with premium and verified badges
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/a74ba196-ea1a-4927-b3ce-b999f7696355)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5. `UsersList.js`
 
-### Code Splitting
+- **Description:** Component for displaying a visually appealing list of users.
+- **Libraries/Plugins Used:**
+  - `react`
+  - `react-router-dom`
+- **Features:**
+  - Responsive grid layout showcasing user profiles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/66612601-865e-4e07-a6b7-2e078f7cab1b)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### 6. `Resp.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Description:** File containing intriguing user data and stunning images.
+- **Libraries/Plugins Used:**
+  - `react`
+  - `react-confetti`
+- **Code:**
+  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/78a3f2a5-aea9-4ade-bca1-f2f22e5a2e97)
 
-### Deployment
+  
+## Styling with Tailwind CSS 🎨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project utilizes [Tailwind CSS](https://tailwindcss.com/) for a modern and utility-first CSS framework. The styles are optimized for a sleek and responsive user interface.
 
-### `npm run build` fails to minify
+## How to Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository: `git clone [repository URL]`
+2. Navigate to the project directory: `cd [project directory]`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
+
+## Usage
+
+Embark on a journey through diverse stories and experiences. Engage with your favorite posts and follow your preferred storytellers.
+
+## Screenshots
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/44348de2-1353-405f-a0df-26fb11822a64
+
+#Responsive Design
+
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/9ee130cd-b16a-41c0-8710-60acac1a4905
+
+
+
+
+
+
+
+
+## Acknowledgments
+
+- Special thanks to [Terribly Tiny Tales](https://www.terriblytinytales.com/) for this oppurtunity.
