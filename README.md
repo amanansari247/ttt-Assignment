@@ -3,6 +3,26 @@
 Welcome to the Awesome TTT Stories App! This application allows you to explore engaging stories from fascinating individuals.
 
 
+## Videos
+
+
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/e44944d2-f086-4b4f-8a22-17c1c3f23c61
+
+
+
+#Responsive Design
+
+
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/e2cc4613-a7aa-4473-bbd8-c59401fc2b7d
+
+
+
+
+
+
+
 ## Components
 
 ### 1. `App.js`
@@ -103,19 +123,7 @@ The project utilizes [Tailwind CSS](https://tailwindcss.com/) for a modern and u
 
 Embark on a journey through diverse stories and experiences. Engage with your favorite posts and follow your preferred storytellers.
 
-## Videos
 
-
-
-https://github.com/amanansari247/ttt-Assignment/assets/72137751/e44944d2-f086-4b4f-8a22-17c1c3f23c61
-
-
-
-#Responsive Design
-
-
-
-https://github.com/amanansari247/ttt-Assignment/assets/72137751/e2cc4613-a7aa-4473-bbd8-c59401fc2b7d
 
 
 
