@@ -12,7 +12,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
   - `react`
   - `react-router-dom`
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/75019355-0db1-4e14-9d74-100abdd901f7)
+![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/2dbf49cd-47b2-49ea-a4ef-fa1557f7cc1e)
+
 
 
 ### 2. `Navbar.js`
@@ -25,7 +26,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
   - Eye-catching logo animation
   - Dynamic "All Stories" button with a smooth transition
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/586fa6e4-4b5e-428f-ac00-9336422cb99e)
+  ![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/b109c598-edda-4920-9289-024573d11f61)
+
 
 
 ### 3. `Footer.js`
@@ -36,7 +38,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
 - **Features:**
   - Beautifully crafted with love ❤️ by Aman Hussain
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/7f2887bd-6e49-45fe-9a02-bb498b7b0c5c)
+  ![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/1f926d5a-2d77-40e1-a025-8224fb61c48e)
+
 
 
 ### 4. `User.js`
@@ -49,7 +52,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
   - Interactive confetti animation for liked posts
   - Attractive user profile design with premium and verified badges
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/a74ba196-ea1a-4927-b3ce-b999f7696355)
+  ![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/ce8fd86d-8d23-4060-9ca3-84a9187b0148)
+
 
 
 
@@ -66,7 +70,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
   - Responsive grid layout showcasing user profiles
 
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/66612601-865e-4e07-a6b7-2e078f7cab1b)
+  ![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/d739743a-4837-451c-82f5-1fd2cf5757e2)
+
 
 
 
@@ -79,7 +84,8 @@ Welcome to the Awesome TTT Stories App! This application allows you to explore e
   - `react`
   - `react-confetti`
 - **Code:**
-  -![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/78a3f2a5-aea9-4ade-bca1-f2f22e5a2e97)
+  ![image](https://github.com/amanansari247/ttt-Assignment/assets/72137751/bf0cf598-a404-4c84-a9de-dcd9039efdb4)
+
 
   
 ## Styling with Tailwind CSS 🎨
@@ -97,14 +103,23 @@ The project utilizes [Tailwind CSS](https://tailwindcss.com/) for a modern and u
 
 Embark on a journey through diverse stories and experiences. Engage with your favorite posts and follow your preferred storytellers.
 
-## Screenshots
+## Videos
 
-https://github.com/amanansari247/ttt-Assignment/assets/72137751/44348de2-1353-405f-a0df-26fb11822a64
+
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/e44944d2-f086-4b4f-8a22-17c1c3f23c61
+
+
 
 #Responsive Design
 
 
-https://github.com/amanansari247/ttt-Assignment/assets/72137751/9ee130cd-b16a-41c0-8710-60acac1a4905
+
+https://github.com/amanansari247/ttt-Assignment/assets/72137751/e2cc4613-a7aa-4473-bbd8-c59401fc2b7d
+
+
+
+
 
 
 
